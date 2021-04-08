@@ -38,7 +38,8 @@ void pick_and_place_sensor_disp(){
   auto h1fdx2 = new TH1F("h1fdx2","delta x2 (um)", 10, -200, 0);
   auto h1fa = new TH1F("h1fa","angle (degree)", 10, -0.5, 0.5);
 
-  double target_x = 231.746 ;
+//  double target_x = 231.746 ;
+  double target_x = 231.749 ;
   double target_y = 397.096 ;
   double target_a = 0.0222312 ;
 
